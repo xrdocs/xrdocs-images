@@ -1,0 +1,16 @@
+---
+permalink: /images
+---
+
+{% include base_path %}
+
+<ul>
+{% for file in site.static_files %}
+  {% assign pageurl = page.url | replace: 'index.html', '' %}
+  {% if file.path contains pageurl %}
+    {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' or file.extname == '.PNG' or file.extname == '.png' %}
+    <li><a href="{{base_path}}{{ file.path }}"><img src="{{base_path}}{{ file.path }}" /></a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
