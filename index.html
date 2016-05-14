@@ -10,11 +10,11 @@ permalink: /
     <meta charset="UTF-8">
     <title>xrdocs-images by xrdocs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/stylesheets/font-awesome/css/font-awesome.min.css" media="screen">
   </head>
   <body>
     <section class="page-header">
@@ -30,8 +30,8 @@ permalink: /
      <p> To upload your images to github for hosting: </p>
      <pre>
       <ul>
-       <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code>Browse to <a href="https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/images">https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/images</a></li>
-       <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code>If you need to be more structured, then upload images based on your doc-type: 
+       <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code>Browse to <a href="https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/images">https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/images</a></li>
+       <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code>If you need to be more structured, then upload images based on your doc-type: 
  <b>Blogs:</b>
      <a href="https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/blog-images">https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/blog-images</a>
  <b>Tutorials:</b>
@@ -39,16 +39,16 @@ permalink: /
  <b>Techdocs:</b>
      <a href="https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/techdoc-images">https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/techdoc-images</a></code></li>
 
-       <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code> Drag and drop your images from your workstation and commit </code></li>
-       <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code> The github link: 
+       <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code> Drag and drop your images from your workstation and commit </code></li>
+       <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code> The github link: 
      <a href="https://github.com/xrdocs/xrdocs-images/tree/gh-pages/assets/">https://github.com/xrdocs/xrdocs-images/tree/gh-pages/assets/</a>
  directly corresponds to the web server at:
      <a href="https://xrdocs.github.io/xrdocs-images/assets/">https://xrdocs.github.io/xrdocs-images/assets/</a><code></li>
-       <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code> Your images will now be available at 
+       <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code> Your images will now be available at 
  <a href="https://xrdocs.github.io/xrdocs-images/assets/images/">https://xrdocs.github.io/xrdocs-images/assets/images/</a>&lt;image-name.jpg/png/jpeg&gt;</code></li> 
-      <li><i class="fa-li fa fa-check-square" aria-hidden="true"></i><code> Now, to insert the image in any markdown file, use: 
+      <li><i class="fa fa-li fa-check-square" aria-hidden="true"></i><code> Now, to insert the image in any markdown file, use: 
  ![&lt;image context&gt;](<a href="https://xrdocs.github.io/xrdocs-images/assets/images/">https://xrdocs.github.io/xrdocs-images/assets/images/</a>&lt;image-name.jpg/png/jpeg&gt;)</code></li>
-     <li><i class="fa-li fa fa-check-square"></i><code> If you uploaded to a specific directory like 
+     <li><i class="fa fa-li fa-check-square"></i><code> If you uploaded to a specific directory like 
  <a href="https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/tutorial-images">https://github.com/xrdocs/xrdocs-images/upload/gh-pages/assets/tutorial-images</a>
  Then the image may be refrenced as:
  ![&lt;image context&gt;](<a href="https://xrdocs.github.io/xrdocs-images/assets/tutorial-images/">https://xrdocs.github.io/xrdocs-images/assets/images/</a>&lt;image-name.jpg/png/jpeg&gt;)
